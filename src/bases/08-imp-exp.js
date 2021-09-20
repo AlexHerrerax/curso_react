@@ -1,7 +1,9 @@
 //import {heroes} from './data/heroes'; //heroes directamente
 
 import { heroes } from "../data/heroes"
-//import {heroes} from './data/heroes' /imp
+
+//Comentar para ejemplo de promesa
+import {heroes} from './data/heroes' 
 
 
 
@@ -10,7 +12,8 @@ export const getHeroesById = (id) =>{
     return heroes.find((heroe) => heroe.id===id  )
 
 }
-//console.log(getHeroesById(2));
+//Comentar para ejemplo de promesa
+console.log(getHeroesById(2));
 
 
 
@@ -19,7 +22,7 @@ const getHeroesByOwner = (owner) =>{
     return heroes.filter((heroe) => heroe.owner===owner  )
 
 }
-
-//console.log(getHeroesByOwner('DC'))
+//Comentar para ejemplo de promesa
+console.log(getHeroesByOwner('DC'))
 
 
