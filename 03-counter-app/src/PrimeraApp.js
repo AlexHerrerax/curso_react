@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-const PrimeraApp = ({saludo}) => {
+const PrimeraApp = ({saludo, subtitulo}) => {
 
 
 console.log(saludo)
@@ -8,6 +8,7 @@ console.log(saludo)
     return (
         <>
             <h1> {saludo}</h1>
+            <p>{subtitulo}</p>
 
             
         
@@ -20,6 +21,10 @@ console.log(saludo)
  PrimeraApp.propTypes ={
     saludo: PropTypes.string.isRequired
 } 
+
+PrimeraApp.defaultProps ={
+    subtitulo:"Hola"
+}
 
 export default PrimeraApp;
 
