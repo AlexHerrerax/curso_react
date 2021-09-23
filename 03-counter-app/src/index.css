@@ -5,6 +5,10 @@ html, body{
     
     padding: 50px;
 
+}
 
-
+button{
+    font-size: 1.3rem;
+    padding: 10px;
+    
 }
