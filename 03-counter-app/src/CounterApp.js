@@ -8,7 +8,7 @@ const CounterApp = ({ value = 0 }) => {
     const [counter, setCounter] = useState(value);
 
 
-    const handleAdd = () => setCounter(counter + 1)
+    const handleAdd = () => setCounter(counter + 12)
     const handleDeduct = () => setCounter(counter - 1);
     const handleReset = () => setCounter(value);
 
